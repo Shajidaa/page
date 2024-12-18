@@ -1,0 +1,131 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  --White: hsl(0, 0%, 100%) ;
+
+  --rosewhite: hsl(30, 54%, 90%);
+
+  --light-grey: hsl(30, 18%, 87%);
+
+  --wenge-brown: hsl(30, 10%, 34%);
+
+  --drak-charcoal: hsl(24, 5%, 18%);
+
+  --nutneg: hsl(14, 45%, 36%);
+
+  ---drak-raspberry: hsl(332, 51%, 32%);
+
+  --eggshell: hsl(330, 100%, 98%);
+}
+
+
+
+body{
+    background-color: var(--eggshell);
+    color: var(--wenge-brown);
+    min-height: 100vh;
+    font-family: "outfit. ,sans-serif";
+    line-height: 1.4;
+    display: grid;
+    place-content: center;
+}
+img{
+  max-width: 100%;
+  display: block;
+}
+h1,h2{
+  font-family: 'Young Serif ',serif;
+  font-weight: 400;
+}
+h1{
+  color:var(--drak-charcoal);
+  font-size: 2.8rem;
+}
+h2{
+  color:var(--nutneg) ;
+  margin-bottom: 1rem;
+}
+.recipe-step{
+  margin: 1rem 0 ;
+}
+.nutriten{
+  margin-top: 1rem;
+}
+ul{
+  padding-left: 1.25rem;
+}
+ul li::marker{
+  color: var(--nutneg);
+  font-weight: bold;
+}
+ul li {
+  margin-bottom: .5rem;
+}
+ul li span{
+  color: var(--wenge-brown);
+  margin-left: 1rem;
+  font-weight: 700;
+}
+hr{
+  margin: 1.5rem 0;
+ border: 1px solid var(--light-grey);
+}
+ .maincontainer .Recipe image {
+ padding: 2rem;
+ border-radius: 1rem;
+ overflow: hidden;
+ }
+ .maincontainer .Recipe image .img{
+  border-radius: 1rem;
+ }
+ .recipe{
+  padding: 0rem 2rem 2rem 2rem ;
+ }
+ .description{
+    margin: 1.5rem 0 ;
+ }
+ .recipe-prep-time{
+  padding: 1.25rem;
+  border-radius: 1rem;
+  background-color: var(--rosewhite);
+ }
+ .recipe-prep-time h3{
+  color: var(---drak-raspberry);
+  margin-bottom: .75rem;
+ }
+ .recipe-prep-time ul li ::marker{
+  color: var(---drak-raspberry);
+
+ }
+ .Ingredients li{
+ margin-bottom: .5rem;
+ }
+ .Ingredients li span{
+  font-weight: initial;
+ }
+.Instructions .item{
+  padding-left: .5rem;
+  margin-right: .5rem;
+  display: flex;
+
+}
+.Instructions .item.num{
+  color: var(--nutneg);
+  font-weight: 700;
+  margin-right: 1rem;
+}
+.Instructions .item p span{
+  font-weight: 700;
+}
+.nutriten p{
+  margin-bottom: 1rem;
+}
+table{
+  padding: .75rem 2rem ;
+  display: flex;
+  border-bottom: 1px solid var(--light-grey);
+}
+ 
